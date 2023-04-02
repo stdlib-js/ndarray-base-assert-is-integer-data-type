@@ -18,11 +18,11 @@ limitations under the License.
 
 -->
 
-# isIntegralDataType
+# isIntegerDataType
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Test if an input value is a supported ndarray integral data type.
+> Test if an input value is a supported ndarray integer data type.
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -34,49 +34,41 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-base-assert-is-integer-data-type
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
+```javascript
+var isIntegerDataType = require( '@stdlib/ndarray-base-assert-is-integer-data-type' );
+```
+
+#### isIntegerDataType( value )
+
+Tests if an input `value` is a supported ndarray integer (i.e., signed or unsigned integer) data type.
 
 ```javascript
-isIntegralDataType = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-integral-data-type@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var isIntegralDataType = require( 'path/to/vendor/umd/ndarray-base-assert-is-integral-data-type/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-integral-data-type@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.isIntegralDataType;
-})();
-</script>
-```
-
-#### isIntegralDataType( value )
-
-Tests if an input `value` is a supported ndarray integral (i.e., signed or unsigned integer) data type.
-
-```javascript
-var bool = isIntegralDataType( 'float32' );
+var bool = isIntegerDataType( 'float32' );
 // returns false
 
-bool = isIntegralDataType( 'uint32' );
+bool = isIntegerDataType( 'uint32' );
 // returns true
 ```
 
@@ -100,57 +92,47 @@ bool = isIntegralDataType( 'uint32' );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-integral-data-type@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var isIntegerDataType = require( '@stdlib/ndarray-base-assert-is-integer-data-type' );
 
-var bool = isIntegralDataType( 'binary' );
+var bool = isIntegerDataType( 'binary' );
 // returns false
 
-bool = isIntegralDataType( 'float32' );
+bool = isIntegerDataType( 'float32' );
 // returns false
 
-bool = isIntegralDataType( 'float64' );
+bool = isIntegerDataType( 'float64' );
 // returns false
 
-bool = isIntegralDataType( 'generic' );
+bool = isIntegerDataType( 'generic' );
 // returns false
 
-bool = isIntegralDataType( 'int16' );
+bool = isIntegerDataType( 'int16' );
 // returns true
 
-bool = isIntegralDataType( 'int32' );
+bool = isIntegerDataType( 'int32' );
 // returns true
 
-bool = isIntegralDataType( 'int8' );
+bool = isIntegerDataType( 'int8' );
 // returns true
 
-bool = isIntegralDataType( 'uint16' );
+bool = isIntegerDataType( 'uint16' );
 // returns true
 
-bool = isIntegralDataType( 'uint32' );
+bool = isIntegerDataType( 'uint32' );
 // returns true
 
-bool = isIntegralDataType( 'uint8' );
+bool = isIntegerDataType( 'uint8' );
 // returns true
 
-bool = isIntegralDataType( 'uint8c' );
+bool = isIntegerDataType( 'uint8c' );
 // returns true
 
-bool = isIntegralDataType( '' );
+bool = isIntegerDataType( '' );
 // returns false
 
-bool = isIntegralDataType( 'foo' );
+bool = isIntegerDataType( 'foo' );
 // returns false
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -209,19 +191,19 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/ndarray-base-assert-is-integral-data-type.svg
-[npm-url]: https://npmjs.org/package/@stdlib/ndarray-base-assert-is-integral-data-type
+[npm-image]: http://img.shields.io/npm/v/@stdlib/ndarray-base-assert-is-integer-data-type.svg
+[npm-url]: https://npmjs.org/package/@stdlib/ndarray-base-assert-is-integer-data-type
 
-[test-image]: https://github.com/stdlib-js/ndarray-base-assert-is-integral-data-type/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/ndarray-base-assert-is-integral-data-type/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/ndarray-base-assert-is-integer-data-type/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/ndarray-base-assert-is-integer-data-type/actions/workflows/test.yml?query=branch:main
 
-[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/ndarray-base-assert-is-integral-data-type/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/ndarray-base-assert-is-integral-data-type?branch=main
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/ndarray-base-assert-is-integer-data-type/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/ndarray-base-assert-is-integer-data-type?branch=main
 
 <!--
 
-[dependencies-image]: https://img.shields.io/david/stdlib-js/ndarray-base-assert-is-integral-data-type.svg
-[dependencies-url]: https://david-dm.org/stdlib-js/ndarray-base-assert-is-integral-data-type/main
+[dependencies-image]: https://img.shields.io/david/stdlib-js/ndarray-base-assert-is-integer-data-type.svg
+[dependencies-url]: https://david-dm.org/stdlib-js/ndarray-base-assert-is-integer-data-type/main
 
 -->
 
@@ -235,12 +217,12 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [umd]: https://github.com/umdjs/umd
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
-[deno-url]: https://github.com/stdlib-js/ndarray-base-assert-is-integral-data-type/tree/deno
-[umd-url]: https://github.com/stdlib-js/ndarray-base-assert-is-integral-data-type/tree/umd
-[esm-url]: https://github.com/stdlib-js/ndarray-base-assert-is-integral-data-type/tree/esm
-[branches-url]: https://github.com/stdlib-js/ndarray-base-assert-is-integral-data-type/blob/main/branches.md
+[deno-url]: https://github.com/stdlib-js/ndarray-base-assert-is-integer-data-type/tree/deno
+[umd-url]: https://github.com/stdlib-js/ndarray-base-assert-is-integer-data-type/tree/umd
+[esm-url]: https://github.com/stdlib-js/ndarray-base-assert-is-integer-data-type/tree/esm
+[branches-url]: https://github.com/stdlib-js/ndarray-base-assert-is-integer-data-type/blob/main/branches.md
 
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-assert-is-integral-data-type/main/LICENSE
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-assert-is-integer-data-type/main/LICENSE
 
 </section>
 
