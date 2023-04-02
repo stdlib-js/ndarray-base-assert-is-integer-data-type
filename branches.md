@@ -38,16 +38,16 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-integral-data-type"
-%% click B href "https://github.com/stdlib-js/ndarray-base-assert-is-integral-data-type/tree/main"
-%% click C href "https://github.com/stdlib-js/ndarray-base-assert-is-integral-data-type/tree/production"
-%% click D href "https://github.com/stdlib-js/ndarray-base-assert-is-integral-data-type/tree/esm"
-%% click E href "https://github.com/stdlib-js/ndarray-base-assert-is-integral-data-type/tree/deno"
-%% click F href "https://github.com/stdlib-js/ndarray-base-assert-is-integral-data-type/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-integer-data-type"
+%% click B href "https://github.com/stdlib-js/ndarray-base-assert-is-integer-data-type/tree/main"
+%% click C href "https://github.com/stdlib-js/ndarray-base-assert-is-integer-data-type/tree/production"
+%% click D href "https://github.com/stdlib-js/ndarray-base-assert-is-integer-data-type/tree/esm"
+%% click E href "https://github.com/stdlib-js/ndarray-base-assert-is-integer-data-type/tree/deno"
+%% click F href "https://github.com/stdlib-js/ndarray-base-assert-is-integer-data-type/tree/umd"
 ```
 
-[stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-integral-data-type
-[production-url]: https://github.com/stdlib-js/ndarray-base-assert-is-integral-data-type/tree/production
-[deno-url]: https://github.com/stdlib-js/ndarray-base-assert-is-integral-data-type/tree/deno
-[umd-url]: https://github.com/stdlib-js/ndarray-base-assert-is-integral-data-type/tree/umd
-[esm-url]: https://github.com/stdlib-js/ndarray-base-assert-is-integral-data-type/tree/esm
+[stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-integer-data-type
+[production-url]: https://github.com/stdlib-js/ndarray-base-assert-is-integer-data-type/tree/production
+[deno-url]: https://github.com/stdlib-js/ndarray-base-assert-is-integer-data-type/tree/deno
+[umd-url]: https://github.com/stdlib-js/ndarray-base-assert-is-integer-data-type/tree/umd
+[esm-url]: https://github.com/stdlib-js/ndarray-base-assert-is-integer-data-type/tree/esm
