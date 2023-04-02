@@ -41,7 +41,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isIntegerDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-integer-data-type@esm/index.mjs';
+import isIntegerDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-integer-data-type@v0.0.0-esm/index.mjs';
 ```
 
 #### isIntegerDataType( value )
@@ -82,7 +82,7 @@ bool = isIntegerDataType( 'uint32' );
 <body>
 <script type="module">
 
-import isIntegerDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-integer-data-type@esm/index.mjs';
+import isIntegerDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-integer-data-type@v0.0.0-esm/index.mjs';
 
 var bool = isIntegerDataType( 'binary' );
 // returns false
