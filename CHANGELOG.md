@@ -2,6 +2,50 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-09-20)
+
+<section class="features">
+
+### Features
+
+-   [`360ed63`](https://github.com/stdlib-js/stdlib/commit/360ed63a0e83c2cc4261df2b6075e1cc2c8f5dec) - add support for non-string data tpes
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`360ed63`](https://github.com/stdlib-js/stdlib/commit/360ed63a0e83c2cc4261df2b6075e1cc2c8f5dec) - **feat:** add support for non-string data tpes _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-29)
