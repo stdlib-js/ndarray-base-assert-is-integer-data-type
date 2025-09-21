@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-20)
+## Unreleased (2025-09-21)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`bcc1af5`](https://github.com/stdlib-js/stdlib/commit/bcc1af5db7947fcef9a41c727843453d14a9ced1) - **refactor:** update require paths to use lower-level utility _(by Athan Reines)_
 -   [`360ed63`](https://github.com/stdlib-js/stdlib/commit/360ed63a0e83c2cc4261df2b6075e1cc2c8f5dec) - **feat:** add support for non-string data tpes _(by Athan Reines)_
 
 </details>
